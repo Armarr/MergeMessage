@@ -19,8 +19,6 @@ public class ChatListener implements Listener {
 
     private Map<Player, String> storedMsg = new HashMap<>();
 
-    ;
-
     @EventHandler(ignoreCancelled = true)
     public void onAsyncPlayerChatEvent(AsyncPlayerChatEvent e) {
         if (e.getMessage().endsWith("&")) {
