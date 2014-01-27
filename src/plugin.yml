@@ -1,0 +1,6 @@
+name: MergeMessage
+main: be.robindeprins.MergeMessage
+version: 1.0
+website: http://www.robindeprins.be
+description: Join chat messages by ending them with an &
+authors: [Armar]
